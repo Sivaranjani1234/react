@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: url(https://media3.giphy.com/media/dYtHPYJxZblCcWPwcQ/giphy.gif?cid=6c09b952rlahvm2q6rkelb998f0yjzo81wmf6j06z3cyov4n&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Bree Serif ", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+h1{
+  text-align: center;
+  color: rgb(224, 15, 85);
+}
+.app{
+  background-color: linear-gradient(5deg,#ff961d 0%, #f71aa2 100%);
+  width: 95%;
+  min-height: 200px;
+  height: min-content;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 42px  0px black;
+  display: flex;
+  justify-content: space-evenly;
+}
+.questionsec{
+  width: 100%;
+  position: relative;
+  font-size: 30px;
+}
+.questions-count{
+  margin-bottom: 20px;
+}
+
+.question-text{
+  margin-bottom: 12px;
+}
+.answersec{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.answersec button{
+  width: 100%;
+  font-size: 16px;
+  color: white;
+  background-color: palevioletred;
+  border-radius: 15px;
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 3px solid rgb(125, 9, 148);
+  cursor: pointer;
+}
+button:hover{
+  background-color: #ff961d;
+}
+button:focus{
+  outline: none;
+}
+.scorecard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff961d;
+  font-size: 30px;
+  font-weight: bold;
+}
